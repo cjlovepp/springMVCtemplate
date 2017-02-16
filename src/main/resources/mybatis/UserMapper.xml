@@ -19,6 +19,10 @@
         SELECT <include refid="base_column"/> FROM user u WHERE u.userName = #{userName, jdbcType=VARCHAR}
     </select>
 
+    <select id="findAll" resultMap="baseResultMap">
+        SELECT <include refid="base_column"/> FROM user
+    </select>
+
 
 
 </mapper>

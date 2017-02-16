@@ -28,6 +28,8 @@
           <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="springMVCtemplate" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
         </element>
       </element>
     </root>

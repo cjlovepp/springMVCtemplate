@@ -14,8 +14,8 @@
 
     <context:component-scan base-package="com.cj" use-default-filters="false">
         <context:include-filter type="regex" expression="com.cj.controller.*" />
-        <context:include-filter type="regex" expression="com.cj.service.*" />
         <context:include-filter type="regex" expression="com.cj.dao.*"/>
+        <context:include-filter type="regex" expression="com.cj.service.*" />
     </context:component-scan>
 
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -54,7 +54,7 @@
             <value>classpath:mybatis-config.xml</value>
         </property>
         <!-- 自动扫描, 省掉Configuration.xml里的手工配置 -->
-        <property name="mapperLocations" value="classpath:com/cj/mybatis/*.xml" />
+        <property name="mapperLocations" value="classpath:mybatis/*.xml" />
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
