@@ -38,5 +38,6 @@
 		<setting name="jdbcTypeForNull" value="NULL"/>
 		<!-- 设置触发延迟加载的方法-->
 		<setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString"/>
+		 <setting name="logImpl" value="LOG4J"/>
 	</settings> 
 </configuration>
