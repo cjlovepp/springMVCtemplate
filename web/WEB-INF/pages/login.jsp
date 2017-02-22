@@ -12,15 +12,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
+        <a href="#"><b>Admin</b>LTE</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
 
-        <form action="login.do" method="post">
+        <form action="login/login.do" method="post">
             <div class="form-group has-feedback">
-                <input type="email" name="email" class="form-control" placeholder="Email">
+                <input type="text" name="userName" class="form-control" placeholder="userName">
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">

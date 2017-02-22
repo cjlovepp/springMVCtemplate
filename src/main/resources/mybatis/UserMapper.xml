@@ -23,6 +23,12 @@
         SELECT <include refid="base_column"/> FROM user
     </select>
 
+    <select id="findByuserNameAndPass" resultType="com.cj.entity.User" parameterType="java.lang.String">
+        SELECT <include refid="base_column"/> FROM user u
+        WHERE u.userName = #{userName, jdbcType=VARCHAR}
+        AND u.password = #{password, jdbcType=VARCHAR}
+    </select>
+
 
 
 </mapper>
